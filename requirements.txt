@@ -1,0 +1,2 @@
+# Python依赖包 / Python dependencies / Python依存パッケージ
+flask>=3.0.0
