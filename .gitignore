@@ -1,0 +1,22 @@
+# 敏感文件 (Sensitive files / 機密ファイル)
+# 不要上传这些文件到GitHub / Do not upload these files / これらのファイルをGitHubにアップロードしないでください
+cookies.txt
+users.json
+
+# Python缓存 / Python cache / Pythonキャッシュ
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 临时下载文件 / Temporary download files / 一時ダウンロードファイル
+/tmp/
+*.log
+
+# 环境变量文件 / Environment variables / 環境変数ファイル
+.env
+
+# 编辑器文件 / Editor files / エディタファイル
+.vscode/
+.idea/
+*.swp
