@@ -160,7 +160,9 @@ certbot --nginx -d your-domain.com
 ### 動画のダウンロード / Download Video / 下载视频
 
 1. ブラウザで `https://your-domain.com` を開く / Open in browser / 在浏览器打开
-2. 管理者アカウントでログイン / Login with admin account / 使用管理员账号登录
+2. 管理者アカウントでログイン（ユーザー名: admin、パスワード: YTDL_ADMIN_PASSWORD で設定した値）
+   Login with admin account (username: admin, password: set via YTDL_ADMIN_PASSWORD)
+   使用管理员账号登录（用户名：admin，密码：YTDL_ADMIN_PASSWORD 环境变量中设置的值）
 3. URLを貼り付け → 画質取得 → ダウンロード方法を選択 / Paste URL → Get Quality → Choose download method / 粘贴链接 → 获取清晰度 → 选择下载方式
 
 ### ダウンロード方法 / Download Methods / 下载方式
