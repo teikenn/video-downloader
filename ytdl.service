@@ -1,0 +1,14 @@
+[Unit]
+Description=YT-DL Flask App
+After=network.target
+
+[Service]
+WorkingDirectory=/root/ytdl
+ExecStart=/usr/bin/python3 /root/ytdl/app.py
+Restart=always
+User=root
+Environment="YTDL_ADMIN_PASSWORD=your_secure_password"
+Environment="YTDL_SECRET_KEY=your_secret_key"
+
+[Install]
+WantedBy=multi-user.target
